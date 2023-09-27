@@ -17,10 +17,7 @@ public class SampleProjectApplication implements CommandLineRunner {
     }
 
     public static void main(String[] args) {
-
-        SpringApplication.exit(
-        SpringApplication.run(SampleProjectApplication.class, args)
-        );
+        SpringApplication.run(SampleProjectApplication.class, args);
     }
 
     @Override
