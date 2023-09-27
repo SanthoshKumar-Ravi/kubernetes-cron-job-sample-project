@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: fetch-latest-status-job
+  name: sample-job
 spec:
   schedule: "* * * * *"
   successfulJobsHistoryLimit: 1
